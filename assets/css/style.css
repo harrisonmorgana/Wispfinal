@@ -86,7 +86,7 @@ body {
     margin-left:15%;
     }
 
-      .mainimg {
+    .mainimg {
         height: auto;
         width: 40vw;
         min-width: 200px;
@@ -115,3 +115,112 @@ body {
         margin-left: 25vw;
         margin-right: 15vw;
         }
+
+
+        .img-gradient{
+  position:relative;
+  display:inline-block;
+}
+
+
+/* 
+#002f4b,#dc4225 
+Convert HEX to RGBA - http://hex2rgba.devoth.com/
+*/
+.img-gradient:after {
+  content:'';
+  position:absolute;
+  left:0; top:0;
+  width:100%; height:100%;
+  display:inline-block;
+  background: -moz-linear-gradient(top, rgba(59, 115, 185,0.5) 0%, rgba(14, 41, 70, 0.5) 100%); /* FF3.6+ */
+  background: -webkit-linear-gradient(top, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+  background: -ms-linear-gradient(top, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* IE10+ */
+  background: linear-gradient(to bottom, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e2946', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+}
+.img-gradient img{
+  display:block;
+}
+
+.btn-close {
+    background-color:#0e2946;
+    color: #fff;
+}
+.btn-close:hover {
+    background-color:#3b73b9;
+    color: #fff;
+}
+.modal-header{
+        background-color:#0e2946;
+        text-align: center;
+        color: #fff;
+    }
+    .modal-center{
+        display: block;
+        margin-left: auto;
+        margin-top: 10vh;
+        margin-right: auto;
+        width: 40%;
+        min-width: 350px;
+        min-height: 400px;
+    }
+    .modal-title {
+        color: #fff;
+    }
+
+    @media only screen and (max-width: 1000px) {
+    .container-fluid {
+        padding: 80px 80px;
+        width: 90vw;
+        text-align: center;
+        }
+    
+    .mainimg {
+        height:1px;
+        widows: 1px;
+        opacity: 0;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    section {
+        margin-bottom: -50px;
+    }
+
+    .img-gradient:after {
+        content:'';
+        position:absolute;
+        left:0; top:0;
+        widows: 100vw; height:28.5vh;
+        width:100vw;
+        display:inline-block;
+        background: -moz-linear-gradient(top, rgba(59, 115, 185,0.5) 0%, rgba(14, 41, 70, 0.5) 100%); /* FF3.6+ */
+        background: -webkit-linear-gradient(top, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* Chrome10+,Safari5.1+ */
+        background: -ms-linear-gradient(top, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* IE10+ */
+        background: linear-gradient(to bottom, rgba(59, 115, 185,0.5) 0%,rgba(14, 41, 70, 0.5) 100%); /* W3C */
+        filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#0e2946', endColorstr='#00000000',GradientType=0 ); /* IE6-9 */
+    }
+    
+    .mainimg {
+        height:1px;
+        widows: 1px;
+        opacity: 0;
+    }
+
+    #about {
+        width: 100%;
+        margin: 0 0 0 0;
+        padding: 0 0 0 0; 
+    }
+    .container-fluid {
+        width: 90vw;
+        margin-left:5vw;
+        text-align: center;
+    }
+    .col-sm-2 {
+        height: 1px;
+        width: 1px;
+        opacity: 0;
+    }
+}
