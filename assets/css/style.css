@@ -36,8 +36,8 @@ body {
     color: #fff !important;
   }
   .navbar-nav li a:hover, .navbar-nav li.active a {
-    color: #3b73b9 !important;
-    background-color: #fff !important;
+    color: #fff !important;
+    background-color: #0e2946 !important;
   }
   .navbar-default .navbar-toggle {
     border-color: #fff;
@@ -63,10 +63,10 @@ body {
     color: #fff; 
   }
 .carousel img {
-    height: auto;
+    height: 40vw;
     width: 100vw; 
     min-width: 400px;
-    min-height: 250px;
+    min-height: 400px;
 }
 .image-overlay{
         z-index: 99999;
@@ -151,6 +151,10 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
     background-color:#3b73b9;
     color: #fff;
 }
+
+.btn a {
+    color: #fff;
+}
 .modal-header{
         background-color:#0e2946;
         text-align: center;
@@ -212,11 +216,13 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
         width: 100%;
         margin: 0 0 0 0;
         padding: 0 0 0 0; 
+        margin-left: 0%;
     }
     .container-fluid {
         width: 90vw;
         margin-left:5vw;
         text-align: center;
+        Margin-right: 0;
     }
     .col-sm-2 {
         height: 1px;

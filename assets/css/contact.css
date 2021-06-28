@@ -72,8 +72,10 @@ body {
 /* Begin Right Contact Page */
 .direct-contact-container {
   max-width: 400px;
-  float: right;
+  float: center;
   margin-top: 5px;
+  margin-left: 25%;
+  Min-width: 400px;  
 }
 
 /* Location, Phone, Email Section */
