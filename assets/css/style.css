@@ -172,7 +172,10 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
     .modal-title {
         color: #fff;
     }
-
+    .w-20 {
+        width:20vw;
+        heiw-20ght: auto;
+    }
     @media only screen and (max-width: 1000px) {
     .container-fluid {
         padding: 80px 80px;
@@ -229,4 +232,8 @@ Convert HEX to RGBA - http://hex2rgba.devoth.com/
         width: 1px;
         opacity: 0;
     }
+}
+.carousel-image {
+    width: 15vw;
+    height: auto;
 }
