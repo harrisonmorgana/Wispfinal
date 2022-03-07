@@ -13,7 +13,7 @@
 }
 
 .jumbo .text-container-fluid {
-  positon: relative;
+  position: relative;
   width: 100vw;
   height: 70vh;
   overflow: hidden;
@@ -188,6 +188,11 @@ carousel slide {
     background-size: cover;
    	width:100vw;
 	height:auto;
+}
+
+.managed {
+	width: 100vw;
+	height: auto;
 }
 
 .wrap {
